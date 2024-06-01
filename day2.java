@@ -3,6 +3,9 @@
 //if else in java 
 // write a code to check if a number is odd or even using if and else
 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 /* 
 import java.util.Scanner;
 
@@ -23,6 +26,7 @@ public class day2 {
 */
 
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // compare two numbers 
 /*
@@ -47,7 +51,10 @@ public class day2{
 }
  */
 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+
+ /*
  // print the greatings using if else 
 import java.util.*;
  public class day2{
@@ -68,8 +75,85 @@ else if(num==3){
 else{
     System.out.println("Please enter a valid input");
 }
-
-
-
     }
  }
+ */
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ //Switch case in java 
+// write a switch case to print the greeting using the numbers
+/* 
+import java.util.*;
+public class day2{
+    public static void main(String[] args){
+
+    Scanner sc=new Scanner(System.in);
+int button=sc.nextInt();
+switch(button){
+    case 1:
+    System.out.println("Hello");
+    break;
+    case 2:
+    System.out.println("Namaste");
+    break;
+    case 3:
+    System.out.println("Sayonara");
+    break;
+    default:
+    System.out.println("Please choose a valid option");
+    break;
+}
+sc.close();
+    }
+}
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Practice questions 
+
+// if else and switch
+/*
+
+Make a Calculator. Take 2 numbers (a & b) from the user and an operation as follows : 
+	1 : + (Addition) a + b
+2 : - (Subtraction) a - b
+3 : * (Multiplication) a * b
+4 : / (Division) a / b
+5 : % (Modulo or remainder) a % b
+Calculate the result according to the operation given and display it to the user.
+
+ */
+
+//  Solution
+ /*
+import java.util.*;
+ public class day2{
+    public static void main(String[] args){
+Scanner sc=new Scanner(System.in);
+int a=sc.nextInt();
+int b=sc.nextInt();
+char c=sc.next().charAt(0);
+switch(c){
+    case '+' :
+    System.out.println(a+b);
+    break;
+    case '-' :
+    System.out.println(a-b);
+    break;
+    case '*':
+    System.out.println(a*b);
+    break;
+    case '/':
+    System.out.println(a/b);
+    break;
+    case '%':
+    System.out.println(a%b);
+    break;
+    default:
+    System.out.println("Please enter a valid operator");
+}
+    }
+ }
+ */
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
