@@ -193,8 +193,8 @@ public class day3{
 
 
 
-//print the pattern
-// half piramid 
+// print the pattern
+// inverted half piramid 
 
 /*
 
@@ -205,6 +205,7 @@ public class day3{
 *
 
 */
+/*
 import java.util.*;
 public class day3{
     public static void main(String[] args){
@@ -221,9 +222,38 @@ public class day3{
         }
     }
 }
+
+*/
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////
+// Print the pattern
+// half inverted patternn 
+// rotated by 180 deg
+/*
+        *
+      * *
+    * * *
+  * * * *
+* * * * *
 
-
+*/
+import java.util.*;
+public class day3{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=0;i<n;i++){
+                                       
+            for(int j=0;j<n-i;j++)
+            {
+                System.out.print("v");
+                   
+                }
+                System.out.println("* ");
+        }
+        sc.close();
+    }
+}
 
 
 
