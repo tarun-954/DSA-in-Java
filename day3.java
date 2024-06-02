@@ -2,7 +2,7 @@
 // for loop
 //while loop
 // do while loop
-
+//////////////////////////////////////////////////////////////////////////////////////////////////
 //print the numbers from one to ten
 /*
 import java.util.*;
@@ -56,7 +56,7 @@ while(i<10);
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 // print the sum of first n natural numbers using for loop
 
-
+/*
 import java.util.*;
 public class day3 {
     public static void main(String[] args)
@@ -70,3 +70,103 @@ sum=sum+i;
 System.out.println(sum);
 }
 }
+*/
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// write a code too print the table  of a number input by the user
+/* 
+import java.util.*;
+public class day3{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        for(int i=1;i<=10;i++){
+            System.out.println(n +" * "+i+" "+" = "+n*i);
+        }
+
+    }
+}
+*/
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// VIP pattern questions for placements
+// 1. Solid rectangle
+/* 
+
+ *  *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *
+ *  *  *  *  *
+
+ 
+  */
+/*
+import java.util.Scanner;
+
+public class day3{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+         int rows=sc.nextInt();
+        int colm=sc.nextInt();
+        for(int i=0;i<rows;i++){
+         for(int j=0;j<colm;j++){
+            System.out.print("* ");
+         }
+         System.out.println();
+        }
+       
+
+    }
+}
+
+ */
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+// 2. Hollow Rectangle 
+/*
+
+ *  *  *  *  *
+ *           *
+ *           *
+ *  *  *  *  *
+ 
+ */
+import java.util.*;
+public class day3{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int row=sc.nextInt();
+        int coln=sc.nextInt();
+        for(int i=0;i<row;i++){
+            for(int j=0;j<coln;j++){
+                if (i==0 || i==row-1 || j==0 || j==coln-1) {
+                System.out.print(" * ");
+            }
+            else{
+            System.out.print("   ");
+            }
+
+        }
+            System.out.println();
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
