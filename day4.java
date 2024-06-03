@@ -146,6 +146,7 @@ public class day4{
 
  */
 
+ /*
 import java.util.*;
 
 public class day4 {
@@ -175,7 +176,8 @@ public class day4 {
             System.out.print("* ");
             
         }
-        for (int j = 3; j <= 2*i; j++) {
+        
+        for (int j = 1; j <= 2*i-2; j++) {
             System.out.print("  ");
         }
         for (int j = i; j <= n; j++) {
@@ -188,4 +190,32 @@ public class day4 {
 
     }
 }
+ */
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//  print the pattern
+                                 /*       Solid Rhombus         */
+ /*
+        * * * * *
+       * * * * *
+      * * * * *
+     * * * * *
+    * * * * *
+
+     */
+
+     import java.util.*;
+     public class day4{
+        public static void main(String[] args){
+            Scanner sc=new Scanner(System.in);
+            int n=sc.nextInt();
+                    
+
+
+            sc.close();
+        }
+     }
+
+
+
+
