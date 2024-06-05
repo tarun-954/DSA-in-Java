@@ -75,7 +75,7 @@ public class day6{
 }
 
  */
-//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
  // write a function that takes in the radius as input and return the circumfrence of a circle 
 
@@ -94,3 +94,149 @@ public static double circumfrence(int r){
  }
  */
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// write a function that takes age as input and returns if that person is eligible to vote or not . A person of age > 18 is eligible for vote
+/*
+import java.util.*;
+public class day6{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+    int age=sc.nextInt();
+    boolean result=IsEligible(age);
+    if(result==true){
+        System.out.println("Eligible for voting");
+    }
+    else
+    {
+        System.out.println("Not Eligible for voting");
+    }
+
+    }
+    public static boolean IsEligible(int age){
+        if(age>18){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+}
+ */
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+//Write an infinity loop using do while condition
+/*
+import java.util.*;
+public class day6{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+       
+        infinityloop();
+    }
+    public static void infinityloop(){
+        int i=0;
+        do{
+            i++;
+            System.out.print(i+" ");
+            
+        }
+        while(i>0);
+
+    }
+}
+
+ */
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//write a program to enter the numbers  till the user wants and at the end it should display the count of positive negative
+/* 
+import java.util.*;
+public class day6{
+   
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int choice=sc.nextInt();
+        int positive=0;
+        int negative=0;
+
+        while(choice!=0){
+         choice=sc.nextInt();
+         if(choice>=0){
+            positive++;
+         }
+         else{
+            negative++;
+         }
+
+            
+        }
+        System.out.println("positive values are : "+positive );
+        System.out.println("Negative values are : "+negative);
+        
+    }
+}
+*/
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered 
+import java.util.*;
+
+ 
+
+public class day6{
+
+   public static void main(String args[]) {
+
+       int positive = 0, negative = 0, zeros = 0;
+
+       System.out.println("Press 1 to continue & 0 to stop");
+
+       Scanner sc = new Scanner(System.in);
+
+       int input = sc.nextInt();
+
+ 
+
+       while(input == 1) {
+
+           System.out.println("Enter your number : ");
+
+           int number = sc.nextInt();
+
+           if(number > 0) {
+
+               positive++;
+
+           } else if(number < 0) {
+
+               negative++;
+
+           } else {
+
+               zeros++;
+
+           }
+
+ 
+
+           System.out.println("Press 1 to continue & 0 to stop");
+
+           input = sc.nextInt();
+
+       }
+
+ 
+
+       System.out.println("Positives : "+ positive);
+
+       System.out.println("Negatives : "+ negative);
+
+       System.out.println("Zeros : "+ zeros);
+
+   }   
+
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/*         Two numbers are entered by the user, x and n. Write a function to find the value of one number raised to the power of another i.e. x power n.              */
+
+
