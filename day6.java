@@ -179,6 +179,7 @@ public class day6{
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Write a program to enter the numbers till the user wants and at the end it should display the count of positive, negative and zeros entered 
+/*
 import java.util.*;
 
  
@@ -236,7 +237,13 @@ sc.close();
    }   
 
 }
+ */
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /*         Two numbers are entered by the user, x and n. Write a function to find the value of one number raised to the power of another i.e. x power n.              */
 
-
+import java.util.*;
+ public class day6{
+    public static void main(String[] args){
+        
+    }
+ }
