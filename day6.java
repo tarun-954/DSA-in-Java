@@ -224,7 +224,7 @@ public class day6{
            input = sc.nextInt();
 
        }
-
+sc.close();
  
 
        System.out.println("Positives : "+ positive);
