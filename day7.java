@@ -134,7 +134,6 @@ for(int i=0;i<size;i++){
 */
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-/* Take array as am input from the user. search for a given number x and print the index at which  */
 
 
 
