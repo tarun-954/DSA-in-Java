@@ -27,7 +27,7 @@ public class day8{
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /* Take a matrix from the user. Search for a given number x and print indices at which it occurs  */
-
+/*
 import java.util.*;
 public class day8{
     public static void main(String[] args){
@@ -60,7 +60,10 @@ public class day8{
 
     }
 }
+     */
+//////////////////////////////////////////////////////////////////////////////////////////////////
 
+                        /*   Strings   */
 
 
 
