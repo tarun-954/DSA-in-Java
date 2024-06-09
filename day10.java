@@ -22,12 +22,12 @@ System.out.println(s6);
 
 //java String charAt() Method
 
-String name="javatpoint";  
+String name="Tarun choudhary";  
 char ch1=name.charAt(4);//returns the char value at the 4th index  
 System.out.println(ch1);  
 
 // java String format()
-String name2="sonoo";  
+String name2="Tarun";  
 String sf1=String.format("name is %s",name2);  
 String sf2=String.format("value is %f",32.33434);  
 String sf3=String.format("value is %32.12f",32.33434);//returns 12 char fractional part filling with 0  
@@ -35,5 +35,18 @@ String sf3=String.format("value is %32.12f",32.33434);//returns 12 char fraction
 System.out.println(sf1);  
 System.out.println(sf2);  
 System.out.println(sf3);  
+
+
+String str1 = String.format("%d", 101);          // Integer value  
+String str2 = String.format("%s", "Tarun choudhary"); // String value  
+String str3 = String.format("%f", 101.00);       // Float value  
+String str4 = String.format("%x", 101);          // Hexadecimal value  
+String str5 = String.format("%c", 'c');          // Char value  
+System.out.println(str1);  
+System.out.println(str2);  
+System.out.println(str3);  
+System.out.println(str4);  
+System.out.println(str5);  
+
     }
 }
