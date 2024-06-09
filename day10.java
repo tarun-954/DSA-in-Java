@@ -17,5 +17,13 @@ String s6=new String("example");//creating Java string by new keyword
 System.out.println(s4);    
 System.out.println(s5);    
 System.out.println(s6);   
+
+
+
+//java String charAt() Method
+
+String name="javatpoint";  
+char ch1=name.charAt(4);//returns the char value at the 4th index  
+System.out.println(ch1);  
     }
 }
