@@ -1,6 +1,6 @@
                                 /*    String builder in java  */
-import java.util.*;
-import java.util.concurrent.LinkedBlockingQueue;
+// import java.util.*;
+// import java.util.concurrent.LinkedBlockingQueue;
 
 public class day11 {
  // Java Code to illustrate StringBuilder

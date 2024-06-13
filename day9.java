@@ -56,6 +56,8 @@ System.out.println("String are equals");
 else{
     System.out.println("Strings are not equal");
 }
+sc.close();
+
 }
 
 }

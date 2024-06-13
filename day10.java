@@ -1,7 +1,7 @@
 public class day10 {
     public static void main(String[] args){
-        String s1="Welcome";  
-String s2="Welcome";//It doesn't create a new instance
+        // String s1="Welcome";  
+// String s2="Welcome";//It doesn't create a new instance
 
 
 
