@@ -49,8 +49,11 @@ public class One_Shot_practice
         //char at 
         System.out.println(name1.charAt(0));
 
-        // replace
+        // replaceut    
         String name2=name1.replace('T','t');
         System.out.println(name2);
+     
+
+    
     }
 }
